@@ -1,0 +1,11 @@
+setup.py改为
+1.注释掉
+with open("README.md") as f:
+   readme = f.read()
+2.修改
+'long_description': 'readme',
+
+将gtFine文件夹放在cityscapesScripts-master目录
+python cityscapesscripts\preparation\createTrainIdInstanceImgs.py
+
+增加两个文件，需要重新pip install .
